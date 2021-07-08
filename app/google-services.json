@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "283264424742",
+    "project_id": "ridecell-assignment-ddff9",
+    "storage_bucket": "ridecell-assignment-ddff9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283264424742:android:e48483ec3b20cc7623ffe7",
+        "android_client_info": {
+          "package_name": "com.example.ridecellassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283264424742-m1bv7v6prqm9s9f036p1697tumnmrt1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdvt_152iACz6RBbHU_zOLQpo31TsKCL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283264424742-m1bv7v6prqm9s9f036p1697tumnmrt1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">RideCell Assignment</string>
+    <string name="email_id">Email-Id</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_up_instead">Sign Up Instead</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="map">Map</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_dashboard">MainActivity</string>
+    <string name="logout">Logout</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="submit">Submit</string>
+    <string name="password_is_weak">Password is Weak</string>
+    <string name="password_is_strong">Password is Strong</string>
+    <string name="password_is_very_strong">Password is Very Strong</string>
+</resources>

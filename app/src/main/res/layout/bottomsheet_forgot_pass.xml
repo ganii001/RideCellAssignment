@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.example.ridecellassignment.ui.auth.LoginViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_layout_white"
+        android:backgroundTint="@color/white">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/progress_bg"
+            android:progress="1"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_layout_half2"
+                android:backgroundTint="@color/purple_500"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="@string/reset_password"
+                android:textColor="@color/white"
+                android:textSize="@dimen/eighteen_sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="@string/email_id">
+
+                <EditText
+                    android:id="@+id/edit_emailid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    app:boxStrokeColor="#fff" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/purple_500"
+                android:gravity="center"
+                android:text="@string/submit"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sixteen_sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:rippleColor="@color/white" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</layout>
